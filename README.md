@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# react-movie-search
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+React Movie Search App - search for your favorite movie.
 
-In the project directory, you can run:
+- This simple web app utilizes a common API to retrieve and resent data in a meaningful way.
 
-### `yarn start`
+## Build Instructions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+npx create-react-app react-movie-search
+cd react-movie-search
+npm start
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## ToDo
 
-### `yarn test`
+- [] Add react project in Heroku
+- [] Find a design
+- [] Create a movie template design
+- [] increase tags container width, same as you did for the plot
+- [] Create a movie list
+- [] Add search field
+- [] Add submit handle on button
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Done
 
-### `yarn build`
+- [x] Find and use an API for movies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Link
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You can see the version live on [Heroku](https://codepen.io/FlorinPop17/full/rRaEYv) and also you can read how I built it in this [article](https://www.florin-pop.com/blog/2019/02/react-movie-search-app/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Credits
 
-### `yarn eject`
+- Built with React
+- This project was bootstrapped with Create React App
+- API from [The Open Movie Database](http://www.omdbapi.com/)
+  - The Open Movie Database (OMDb) API is a RESTful web service to obtain movie information. This OMDb API allows users to search for movies by title, IMDb identifier, date released, season or episode, among other information.
+- Icons from [FontAwesome](https://fontawesome.com/?from=io)
+- Axios (a promised-based HTTP client) is used for making API calls
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## API
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The Open Movie Database (OMDb) API is a RESTful web service to obtain movie information. This OMDb API allows users to search for movies by title, IMDb identifier, date released, season or episode, among other information.
+See the API documentation for more info. (http://www.omdbapi.com/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Note that though this API has a free version, an API key is required.
