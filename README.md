@@ -4,7 +4,7 @@
 
 React Movie Search App - search for your favorite movie.
 
-- This simple web app utilizes a common API to retrieve and resent data in a meaningful way.
+This simple mobile-first web app utilizes a common API to retrieve and resent data in a meaningful way.
 
 ## Build Instructions
 
