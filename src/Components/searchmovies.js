@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import MovieCard from "./movieCard.js";
+
 export default function SearchMovies() {
   //states- input query, movies
   const [query, setQuery] = useState("");
@@ -23,14 +24,12 @@ export default function SearchMovies() {
   return (
     <>
       <form className="form" onSubmit={searchMovies}>
-        <label className="label" htmlFor="query">
-          Movie Name
-        </label>
+        <label className="label" htmlFor="query"></label>
         <input
           className="input"
           type="text"
           name="query"
-          placeholder="i.e. Jurassic Park"
+          placeholder="Input Movie Name"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />

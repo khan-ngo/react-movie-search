@@ -47,34 +47,13 @@ h1 {
   max-width: 95vw;
 }
 
-.card-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  grid-gap: 20px;
-}
-
-.card {
-  padding: 20px 40px;
-  border-radius: 3px;
-  display: flex;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  margin-bottom: 20px;
-}
-
-.card--title {
-  margin-bottom: 5px;
-  font-size: 32px;
-}
-
-.card--image {
-  margin-right: 20px;
-  object-fit: contain;
-}
-
 .text-center {
   text-align: center;
+}
+
+.title {
+  font-size: 4.4rem;
+  text-align: center
 }
 
 .label {
@@ -125,4 +104,10 @@ h1 {
   .input {
     margin-bottom: 0;
   }
+}
+
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 20px;
 }
