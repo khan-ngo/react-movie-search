@@ -14,18 +14,18 @@ npm start
 
 ## ToDo
 
-[] Find a design
-[] Create a movie template design
-[] increase tags container width, same as you did for the plot
-[] Create a movie list
-[] Add search field
-[] Add submit handle on button
-[] Use Axios (a promised-based HTTP client) is used for making API calls
+- [] Find a design
+- [] Create a movie template design
+- [] increase tags container width, same as you did for the plot
+- [] Create a movie list
+- [] Add search field
+- [] Add submit handle on button
+- [] Use Axios (a promised-based HTTP client) is used for making API calls
 
 ## Done
 
-[x] Find and use an API for movies
-[x] Add react project in git-pages
+- [x] Find and use an API for movies
+- [x] Add react project in git-pages
 
 
 ## Link
