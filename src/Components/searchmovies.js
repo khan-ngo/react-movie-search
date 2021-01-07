@@ -15,6 +15,7 @@ export default function SearchMovies() {
     try {
       const res = await fetch(url);
       const data = await res.json();
+      console.log(data.results);
       setMovies(data.results);
     } catch (err) {
       console.error(err);
@@ -29,7 +30,7 @@ export default function SearchMovies() {
           className="input"
           type="text"
           name="query"
-          placeholder="Input Movie Name"
+          placeholder="Search movies by name ..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />

@@ -8,6 +8,12 @@ This simple mobile-first web app utilizes a common API to retrieve and resent da
 
 ## Build Instructions
 
+#### install create-react-app
+
+npm install -g create-react-app
+
+#### Scaffold and start new react app
+
 npx create-react-app react-movie-search
 cd react-movie-search
 npm start
