@@ -8,7 +8,7 @@ This simple mobile-first web app utilizes a common API to retrieve and resent da
 
 ## Build Instructions
 
-#### install create-react-app
+#### install [Create React App](https://github.com/facebook/create-react-app)
 
 npm install -g create-react-app
 
@@ -32,7 +32,6 @@ npm start
 
 - [x] Find and use an API for movies
 - [x] Add react project in git-pages
-
 
 ## Link
 
